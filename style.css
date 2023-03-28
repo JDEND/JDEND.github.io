@@ -1,6 +1,8 @@
 body {
     background-image: white;
-    
+    zoom: 40%;
+    -moz-transform: scale(1.4);
+    -moz-transform-origin: top;
 }
 html{
     min-height: 100%;
