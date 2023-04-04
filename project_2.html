@@ -72,25 +72,55 @@
 
   <!--main body-->
   <p><br><br><br><br>
-    <h1 class="mt-5">Project 2 - Coffee Shop</h1>  
-    <div class="description">
+    <h1 class="mt-5" style="text-align: center; width: 80%;">Project 2 - Coffee Shop</h1>  
+    <div class="description", style="text-align: left; margin-left: auto; margin-right: auto;">
       <br>
-      <h4>Roles:<br>
+      <h4 style="text-align: left; margin-left: auto; margin-right: auto; width: 50%;">Roles:<br>
       Ali - Documentation, Presentation, and Backend<br>
       Jared - Webmaster<br>
       Huy - Front end GUI<br>
       Ian - Data backend and integration<br>
       Alex - Front end GUI<br></h4>
       <br><br>
+        <!--Add image slideshow-->
+
+        <div class="slider">
+          <span id="slide-1"></span>
+          <span id="slide-2"></span>
+          <span id="slide-3"></span>
+          <span id="slide-4"></span>
+          <span id="slide-5"></span>
+          <span id="slide-6"></span>
+          <div class="image-container">
+            <img src="app gif/Signup.gif" class="slide" width="500" height="300" />
+            <img src="app gif/Login.gif" class="slide" width="500" height="300" />
+            <img src="app gif/logs.gif" class="slide" width="500" height="300" />
+            <img src="app gif/ordering.gif" class="slide" width="500" height="300" />
+            <img src="app gif/Restock.gif" class="slide" width="500" height="300" />
+            <img src="app gif/setOrices.gif" class="slide" width="500" height="300" />
+          </div>
+          <div class="buttons">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            <a href="#slide-5"></a>
+            <a href="#slide-6"></a>
+          </div>
+        </div>
+
+      <br><br>
       <div style="font-size: 120%">
         This product is a piece of software designed to help store and manage customers' information. Stored information may include, but is not limited to:
-          <ul>
+        <br><br>
+          <ul style="text-align: left; margin-left: auto; margin-right: auto; width: 50%;">
             <li>Name of the client</li>
             <li>The location of the client</li>
             <li>Date of Purchase</li>
             <li>Credit Card Details</li>
             <li>Person Identification Numbers</li>
           </ul>
+          <br>
           By downloading this product, you agree to the terms and conditions, and acknowledge that this software is not responsible and for any actions you do in relation to the information saved by this product.
         </div>
     </div>
@@ -101,8 +131,8 @@
  </button></p>
  
  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-top: 20%;">
+    <div class="modal-dialog" style="zoom: 90%; -moz-transform: scale(.9); -moz-transform-origin: top; padding-top: 20%;">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Terms and Conditions</h5>
@@ -112,6 +142,12 @@
              TERMS AND CONDITIONS
              <br>
              Last updated February 14, 2023
+             <br>
+             <br>
+             <br>
+             TERMS AND CONDITIONS
+             <br>
+             Last updated April 3rd, 2023
              <br>
              <br>
              <br>
@@ -171,7 +207,7 @@
              <br>
              4. PROHIBITED ACTIVITIES
              <br>
-             You may not access or use the Site for any purpose other than that for which we make the Site available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
+             You may not access or use the Site for any purpose other than that for which we make the Site available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us. You cannot not use our site without the proper licensing.
              <br>
              As a user of the Site, you agree not to:<br>
              Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
@@ -344,7 +380,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Disagree</button> <!--dismiss button-->
                 <!--download button-->
-                <a href = "https://rb.gy/o2krdf" d><button type="button" class="btn btn-primary" data-bs-dismiss="modal">Accept</button></a>
+                <a href = "Main.exe" d><button type="button" class="btn btn-primary" data-bs-dismiss="modal">Accept</button></a>
             </div>
         </div>
     </div>
@@ -354,7 +390,6 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
-
 
     </script>
   </body>
